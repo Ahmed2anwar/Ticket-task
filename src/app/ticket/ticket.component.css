@@ -1,0 +1,65 @@
+.ticket {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #8a74f9;
+  color: white;
+}
+.title {
+  border-bottom: 2.49px dashed #ffffff66;
+}
+.btn-promocode {
+  background-color: white;
+}
+.btn-promocode:hover {
+  color: black;
+}
+h6,
+.btn-promocode {
+  font-size: 14px;
+  font-weight: 500;
+}
+p {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.share-btn {
+  background-color: transparent;
+  color: white;
+  border-color: white;
+  margin-bottom: 5px !important;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+}
+.Qr-code-section::after{
+  content: "";
+  position: absolute;
+  top: -32%;
+  right: -10px;
+  background-color: #f3f5f7;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.Qr-code-section::before{
+  content: "";
+  position: absolute;
+  top: -32%;
+  left: -10px;
+  background-color: #f3f5f7;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+

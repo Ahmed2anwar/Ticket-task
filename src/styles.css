@@ -1,0 +1,93 @@
+/* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@100..900&display=swap");
+@import "primeicons/primeicons.css";
+
+* {
+  direction: Rtl;
+  font-family: "Neo Sans Arabic", Inter;
+}
+
+body {
+  background-color: #f3f5f7 !important;
+}
+
+/* purshase button  */
+.btn-purshase {
+  margin-bottom: 0 !important;
+  background-color: #8a74f9;
+  color:white;
+  font-size: 12;
+  font-weight: 400px;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+}
+.btn-purshase:hover {
+
+  background-color: transparent;
+  color: #8a74f9 ;
+  border-color: #8a74f9 ;
+}
+
+/* download button  */
+.btn-download {
+  padding: 2px 5px;
+  border: 1px solid #8a74f9;
+}
+.btn-download i {
+  width: 25px;
+  height: 25px;
+
+  color: #8a74f9;
+  transition: color 0.6s;
+  -webkit-transition: color 0.6s;
+  -moz-transition: color 0.6s;
+  -ms-transition: color 0.6s;
+  -o-transition: color 0.6s;
+}
+.btn-download:hover {
+  background-color: #8a74f9;
+}
+.btn-download:hover i {
+  color: white !important;
+}
+
+/* Paginotr */
+.p-paginator-bottom.p-paginator.p-component.ng-star-inserted {
+  direction: ltr;
+  display: flex;
+  justify-content: start;
+}
+
+button.p-ripple.p-element.p-paginator-first.p-paginator-element.p-link.p-disabled,
+button.p-ripple.p-element.p-paginator-last.p-paginator-element.p-link {
+  display: none;
+}
+.custom-table {
+  border-radius: 10px !important;
+  -webkit-border-radius: 10px !important;
+  -moz-border-radius: 10px !important;
+  -ms-border-radius: 10px !important;
+  -o-border-radius: 10px !important;
+}
+.custom-table .p-paginator .p-paginator-page.p-highlight {
+  background-color: #8a74f9;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  color: white;
+}
+
+/* dropdown field */
+span.p-element.p-dropdown-label.p-inputtext {
+  padding: 8px 10px 0px 0px;
+}
+span.p-element.p-dropdown-label.p-inputtext:focus
+{
+
+}
+

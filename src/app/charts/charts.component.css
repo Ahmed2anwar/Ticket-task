@@ -1,0 +1,56 @@
+#filterDropdown {
+  background-color: #fafafa;
+  border: 1px solid #e8e8e8;
+  margin-right: 550px !important;
+}
+.chart-title {
+  margin-right: 20px;
+}
+
+
+
+
+@media screen and (min-width: 300px) and (max-width:580px) {
+  #filterDropdown {
+    background-color: #fafafa;
+    border: 1px solid #e8e8e8;
+    margin-right: 50px !important;
+  }
+
+}
+
+@media screen and (min-width: 581px) and (max-width:768px) {
+
+  #filterDropdown {
+    background-color: #fafafa;
+    border: 1px solid #e8e8e8;
+    margin-right: 215px !important;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width:1024px) {
+
+  #filterDropdown {
+    background-color: #fafafa;
+    border: 1px solid #e8e8e8;
+    margin-right: 390px !important;
+  }
+
+}
+
+@media screen and (min-width: 1025px) and (max-width:1200px) {
+
+  #filterDropdown {
+    background-color: #fafafa;
+    border: 1px solid #e8e8e8;
+    margin-right: 300px !important;
+  }
+}
+@media screen and (min-width: 1201px) and (max-width:1400px) {
+
+  #filterDropdown {
+    background-color: #fafafa;
+    border: 1px solid #e8e8e8;
+    margin-right: 430px !important;
+  }
+}

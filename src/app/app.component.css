@@ -1,0 +1,40 @@
+.title h6 {
+  font-size: 16px;
+  font-weight: 500;
+  color: #1c1c28;
+}
+.search-input:focus {
+  border-color: #8a74f9;
+  box-shadow: none;
+}
+
+.search-input {
+  padding-right: 30px;
+}
+
+.search-input::placeholder {
+  color: #92a1ad66 !important;
+}
+
+.edit-btn {
+  background-color: white;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 5px 10px 5px 10px;
+  border-radius: 5px;
+  border: 1px solid #e9eaea;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+}
+.edit-btn:hover {
+  background-color: #8a74f9;
+  color: white;
+  border: 1px solid #e9eaea;
+
+}
+.edit-btn:hover i {
+  color: white !important;
+}

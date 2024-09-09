@@ -1,0 +1,25 @@
+tbody,
+th,
+thead,
+td {
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+}
+tbody,
+th,
+thead {
+  color: #abaab1;
+}
+tbody,
+td {
+  color: #1c1c28;
+}
+.p-paginator {
+  display: flex !important;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1c1c28 !important
+  ;
+}
+
